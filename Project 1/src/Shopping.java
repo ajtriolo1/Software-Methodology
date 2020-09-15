@@ -64,7 +64,7 @@ public class Shopping {
 		if(bag.getSize() != 0) {
 			checkout(bag);
 		}
-
+		System.out.println("Thanks for shopping with us!");
 		in.close();
 	}
 
